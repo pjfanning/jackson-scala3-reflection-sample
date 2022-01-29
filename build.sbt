@@ -11,7 +11,7 @@ resolvers += Resolver.sonatypeRepo("snapshots")
 libraryDependencies ++= Seq(
   "com.fasterxml.jackson.core" % "jackson-databind" % jacksonVersion,
   "com.fasterxml.jackson.module" %% "jackson-module-scala" % jacksonVersion,
-  "com.github.pjfanning" %% "jackson-scala3-reflection-extensions" % "2.13.1+9-b4ac6b2d-SNAPSHOT",
+  "com.github.pjfanning" %% "jackson-scala3-reflection-extensions" % "2.13.1+15-3cfe1965-SNAPSHOT",
   "co.blocke" %% "scala-reflection" % scalaReflectionVersion
 )
 
