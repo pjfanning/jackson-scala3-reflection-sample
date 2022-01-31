@@ -1,7 +1,6 @@
 package com.github.pjfanning.jackson
 
 import co.blocke.scala_reflection.RType
-import co.blocke.scala_reflection.info.ClassInfo
 import com.fasterxml.jackson.databind.json.JsonMapper
 import com.fasterxml.jackson.module.scala.DefaultScalaModule
 import com.github.pjfanning.jackson.reflection.ScalaReflectionExtensions
