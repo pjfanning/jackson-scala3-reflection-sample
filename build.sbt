@@ -3,15 +3,13 @@ organization := "com.github.pjfanning"
 
 ThisBuild / scalaVersion := "3.1.1"
 
-val jacksonVersion = "2.13.1"
+val jacksonVersion = "2.13.2"
 val scalaReflectionVersion = "1.1.4"
-
-resolvers += Resolver.sonatypeRepo("snapshots")
 
 libraryDependencies ++= Seq(
   "com.fasterxml.jackson.core" % "jackson-databind" % jacksonVersion,
   "com.fasterxml.jackson.module" %% "jackson-module-scala" % jacksonVersion,
-  "com.github.pjfanning" %% "jackson-scala3-reflection-extensions" % "2.13.1+15-3cfe1965-SNAPSHOT",
+  "com.github.pjfanning" %% "jackson-scala3-reflection-extensions" % jacksonVersion,
   "co.blocke" %% "scala-reflection" % scalaReflectionVersion
 )
 
