@@ -3,7 +3,7 @@ organization := "com.github.pjfanning"
 
 ThisBuild / scalaVersion := "3.2.0"
 
-val jacksonVersion = "2.13.3"
+val jacksonVersion = "2.13.4"
 val scalaReflectionVersion = "1.1.4"
 
 libraryDependencies ++= Seq(
