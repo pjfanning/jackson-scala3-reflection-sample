@@ -1,7 +1,7 @@
 name := "jackson-scala3-reflection-sample"
 organization := "com.github.pjfanning"
 
-ThisBuild / scalaVersion := "3.2.0"
+ThisBuild / scalaVersion := "3.2.1"
 
 val jacksonVersion = "2.14.0"
 val scalaReflectionVersion = "1.2.0"
