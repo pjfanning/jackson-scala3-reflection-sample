@@ -1,9 +1,9 @@
 name := "jackson-scala3-reflection-sample"
 organization := "com.github.pjfanning"
 
-ThisBuild / scalaVersion := "3.2.1"
+ThisBuild / scalaVersion := "3.2.2"
 
-val jacksonVersion = "2.14.0"
+val jacksonVersion = "2.15.1"
 val scalaReflectionVersion = "1.2.0"
 
 libraryDependencies ++= Seq(
