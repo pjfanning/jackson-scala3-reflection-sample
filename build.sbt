@@ -9,7 +9,7 @@ val scalaReflectionVersion = "1.2.0"
 libraryDependencies ++= Seq(
   "com.fasterxml.jackson.core" % "jackson-databind" % jacksonVersion,
   "com.fasterxml.jackson.module" %% "jackson-module-scala" % jacksonVersion,
-  "com.github.pjfanning" %% "jackson-scala3-reflection-extensions" % jacksonVersion,
+  "com.github.pjfanning" %% "jackson-scala3-reflection-extensions" % "2.16.0",
   "com.github.pjfanning" %% "scala3-reflection" % scalaReflectionVersion
 )
 
