@@ -4,7 +4,7 @@ organization := "com.github.pjfanning"
 ThisBuild / scalaVersion := "3.3.1"
 
 val jacksonVersion = "2.16.1"
-val scalaReflectionVersion = "1.2.0"
+val scalaReflectionVersion = "1.3.1"
 
 libraryDependencies ++= Seq(
   "com.fasterxml.jackson.core" % "jackson-databind" % jacksonVersion,
